@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+
+    <form id="myForm">
+        <label for="ad">Ad:</label>
+        <input type="text" id="ad" name="ad" required><br>
+
+        <label for="soyad">Soyad:</label>
+        <input type="text" id="soyad" name="soyad" required><br>
+
+        <label for="yas">Yaş:</label>
+        <input type="number" id="yas" name="yas" required><br>
+
+        <label for="cins">Cins:</label>
+        <input type="radio" name="gender" value="men"> men
+        <input type="radio" name="gender" value="women"> women
+
+        <br>
+
+        <button type="button" id="submitButton">Göndər</button>
+    </form>
+
+    <div id="info" style="margin-top: 20px;"></div>
+
+
+    <script src="app.js"></script>
+</body>
+
+</html>
